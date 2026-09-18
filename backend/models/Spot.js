@@ -86,9 +86,7 @@ const spotSchema = new mongoose.Schema(
       default: "",
     },
 
-    /*
-      Exact coordinates from browser location.
-    */
+
 
     latitude: {
       type: Number,
