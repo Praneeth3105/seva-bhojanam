@@ -1116,7 +1116,6 @@ function AddSpotModal({ onClose, onSubmit }) {
             />
           </Field>
 
-          {/* EXACT LOCATION */}
 
           <div className="map-location-field">
             <div className="map-location-title">
