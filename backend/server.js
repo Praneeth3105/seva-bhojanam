@@ -425,20 +425,10 @@ app.post("/api/spots", createLimiter, async (req, res) => {
   }
 });
 
-/* =========================
-   INTERESTED
-========================= */
 
 app.post("/api/spots/:id/interested", interestedLimiter, async (req, res) => {
   try {
-    /*
-        Atomic MongoDB increment.
 
-        0 -> 1
-        1 -> 2
-        2 -> 3
-        etc.
-      */
 
     const spot = await Spot.findByIdAndUpdate(
       req.params.id,
