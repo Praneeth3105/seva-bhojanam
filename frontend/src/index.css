@@ -877,9 +877,6 @@ footer {
   box-shadow: 0 15px 40px rgba(0, 0, 0, 0.2);
 }
 
-/* =========================
-   TABLET
-========================= */
 
 @media (max-width: 950px) {
   .hero-grid {
