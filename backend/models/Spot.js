@@ -86,8 +86,6 @@ const spotSchema = new mongoose.Schema(
       default: "",
     },
 
-
-
     latitude: {
       type: Number,
       min: -90,
