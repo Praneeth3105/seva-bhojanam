@@ -428,8 +428,6 @@ app.post("/api/spots", createLimiter, async (req, res) => {
 
 app.post("/api/spots/:id/interested", interestedLimiter, async (req, res) => {
   try {
-
-
     const spot = await Spot.findByIdAndUpdate(
       req.params.id,
 
