@@ -1116,7 +1116,6 @@ function AddSpotModal({ onClose, onSubmit }) {
             />
           </Field>
 
-
           <div className="map-location-field">
             <div className="map-location-title">
               <MapPin size={20} />
