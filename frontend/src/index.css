@@ -981,10 +981,6 @@ footer {
     flex-direction: column;
   }
 
-  /*
-    IMPORTANT MOBILE MODAL FIX:
-    Full form can scroll from top to bottom.
-  */
 
   .modal-backdrop {
     display: block;
